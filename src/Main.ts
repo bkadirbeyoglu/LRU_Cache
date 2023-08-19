@@ -57,11 +57,13 @@ function testCache() {
 
     setTimeout(() => {
         console.log("building4 after 3 seconds:");
+        console.log(new Date());
         console.log(topicCache.get(building4.id));
         //console.log(topicCache);
     }, 3000);
     setTimeout(() => {
         console.log("building4 after 12 seconds:");
+        console.log(new Date());
         console.log(topicCache.get(building4.id));
         //console.log(topicCache);
     }, 12000);
