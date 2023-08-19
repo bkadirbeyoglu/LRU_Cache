@@ -6,7 +6,7 @@ enum TopicCacheDuration {
     MEMBER = 15 * 1000
 }
 
-interface CachedTopic {
+type CachedTopic = {
     expirationDate: Date,
     topic: Topic
 }
